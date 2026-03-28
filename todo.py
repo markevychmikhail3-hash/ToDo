@@ -24,6 +24,8 @@ def main(page: ft.Page):
 
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
     page.add(container)
+    page.window_width = 650
+    page.update()
 
 
 ft.run(main)
